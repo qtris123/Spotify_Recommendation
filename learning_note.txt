@@ -1,0 +1,11 @@
+Part1:
+URI: Uniform Resource Identifier. We need a URI to perform any function with the API referring to an object in Spotify.
+
+Spotify offers a clientID and a client secret as a username and a password to authenticate with the Spotify web API.
+
+Part3:
+The goal of a recommendation algorithm is to recommend or predict items a user might like based on their data or based 
+on the entire user database.
+
+General RS Pipeline:
+Data Extraction -> Data Preprocessing -> Find similarity of Items or Users -> Recommendation
