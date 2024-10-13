@@ -3,9 +3,29 @@ URI: Uniform Resource Identifier. We need a URI to perform any function with the
 
 Spotify offers a clientID and a client secret as a username and a password to authenticate with the Spotify web API.
 
+Part2:
+- Cluster-based algorithm (lacks the flexibility to add other features to the system)
+
 Part3:
 The goal of a recommendation algorithm is to recommend or predict items a user might like based on their data or based 
 on the entire user database.
 
 General RS Pipeline:
 Data Extraction -> Data Preprocessing -> Find similarity of Items or Users -> Recommendation
+
+Content-based filtering and Collaborative filtering
+Content-based filtering:
+-  uses features of each item to find the similarities between items.
+Collaborative filtering:
+- recommends songs based on the overlap of songs in playlists in the dataset.
+- User-user CF (focus of this project), item-item CF, model-based CF.
+
+Metadata:
+- Genre data -> one-hot encoding
+- Popularity data -> normalizing into a range between 0 and 1
+- Name + Artist -> use to dedup songs
+Audio: (sp.audio_features(track_uri)[0])
+- Key -> perform one-hot encoding, because this is a categorical data
+
+Text: 
+- track_name -> sentiment analysis -> polarity (0, 1) and subjectivity (-1, 1)
