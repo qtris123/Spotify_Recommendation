@@ -29,3 +29,5 @@ Audio: (sp.audio_features(track_uri)[0])
 
 Text: 
 - track_name -> sentiment analysis -> polarity (0, 1) and subjectivity (-1, 1)
+- Polarity: The degree of strong or clearly defined sentiment accounting for negation.
+- Subjectivity: The amount of personal opinion and factual information contained in the text.
