@@ -1,0 +1,27 @@
+Curating a Spotify Discover Playlist for Two People with K-Means Clustering | by Trustin Yoon | Towards Data Science
+(Towards Data Science)
+
+ItsCodeBakery/K-Means-Clustering: Music Recommendation System using K-Means Clustering (github.com) ****
+(show a detailed working map)
+
+
+nmirabets/song-recommender: An online song recommender based on a K-means model using the Spotify API and the MillionSongSubset (github.com)
+(incorporate streamlit with the algorithm)
+
+
+Elbow method: 
+The plot_elbow_method function is designed to help determine the optimal number of clusters for K-Means clustering. (SSE – Sum of Squared Error)
+	Choose a number of clusters when SSE/ Distortion/ Inertia starts to decrease at a slower rate, or as in a linear fashion (this point resembles an “elbow” or a bend in the plot).
+ 
+Mechanism:
+-	Distortion: the average of the squared distances from the cluster centers of the respective clusters to each data point.
+ 
+-	Inertia: the sum of the squared distances of samples to their closest cluster center.
+ 
+-	WCSS (Within-cluster sum of squares): the sum of square distances between centroids and each point, which sounds similar to Inertia.
+Principal Component Analysis (PCA):
+-	This is a dimensionality reduction technique to simplify multi-dimensions while still preserving as much information as possible.
+-	Keywords: Covariance matrix, Eigenvalues, 
+-	Example: Imagine you have a dataset with 100 features. Some of these features may be highly correlated and therefore redundant. PCA can reduce the dataset to a smaller number of features (principal components) that capture most of the variability. For example, you may reduce it to 10 principal components while retaining 95% of the original variance.
+-	PCA is widely used in areas like: Data Compression, Feature Extraction, Pattern Recognition.
+
